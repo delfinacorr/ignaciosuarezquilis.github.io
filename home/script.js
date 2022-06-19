@@ -16,6 +16,22 @@ function mostrarResultados(informacion) {
   document.getElementById(
     `dolarMEP`
   ).innerHTML = `${dolarMEP.compra} / ${dolarMEP.venta}`;
+
+
+  console.log(dolarturista);
+  document.getElementById(
+    "dolarturista"
+  ).innerHTML = `${dolarturista.compra} / ${dolarturista.venta}`;
+
+  console.log(dolarPromedio);
+  document.getElementById(
+    "dolarPromedio"
+  ).innerHTML = `${dolarPromedio.compra} / ${dolarPromedio.venta}`;
+
+  console.log(dolarcontadocontadoconliqui);
+  document.getElementById(
+    `dolarcontadoconliqui`
+  ).innerHTML = `${dolarcontadoconliqui.compra} / ${dolarcontadoconliqui.venta}`;
 }
 
 function consultaCotizaciones() {
